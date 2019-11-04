@@ -1,7 +1,7 @@
 {
-  "name": "intro.js-react",
-  "version": "0.2.0",
-  "description": "Intro.js React Wrapper",
+  "name": "intro-react-free",
+  "version": "0.0.1",
+  "description": "Intro.js React Wrapper With Free license",
   "main": "lib/index.js",
   "scripts": {
     "prebuild": "rimraf lib/*",
@@ -34,7 +34,7 @@
     "eslint-plugin-prettier": "^2.4.0",
     "eslint-plugin-react": "^7.0.1",
     "husky": "^0.13.4",
-    "intro.js": "^2.9.3",
+    "intro.js":  "<2.0.0",
     "jest": "^20.0.4",
     "lint-staged": "^3.6.0",
     "prettier": "^1.7.0",
@@ -46,7 +46,7 @@
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0-0 || ^16.0.0-alpha",
-    "intro.js": "^2.5.0"
+    "intro.js": "<2.0.0"
   },
   "repository": {
     "type": "git",
