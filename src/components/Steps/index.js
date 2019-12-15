@@ -248,8 +248,7 @@ export default class Steps extends Component {
       this.isVisible = true;
 
       // this.introJs.goToStepNumber(initialStep + 1);
-      const step = steps[initialStep + 1];
-      this.introJs.goToStep(step);
+      this.introJs.goToStep(initialStep + 1);
 
       if (onStart) {
         onStart(this.introJs._currentStep);
