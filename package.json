@@ -1,6 +1,6 @@
 {
   "name": "intro-react-free",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Intro.js React Wrapper With Free license",
   "main": "lib/index.js",
   "scripts": {
